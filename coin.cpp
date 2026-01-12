@@ -5,6 +5,7 @@ int main (){
     srand(time(NULL));
 
     int num = rand() % 2; // Generates either 0 or 1; Random
+    std::cout << num << "\n";
     if(num > 0.5){
         std::cout << "Heads\n";
     } else {
